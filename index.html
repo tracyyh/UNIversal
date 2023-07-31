@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Final Project</title>
+    
+    <!--Links style.css to HTML-->
+    <link href="/style.css" rel="stylesheet" type="text/css" />       
+
+         
+
+    <!--Links jQuery library to HTML-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  </head>
+  
+  <body>
+    
+    <!-- Random button just to see how files are working-->
+    <!-- <button class="forum"><a class = "forumagain" href= "Forum/forum.html">Forum</a></button> -->
+<!-- start of front page content picture thing IDK -->
+  <div class= "mainHeader">
+    <img class = "headerImage" src = "images/blue.png" alt="pastel blue background">
+    <center><img class="centeredTextInHeaderImage" src= "images/reallogo.svg" alt= "UNIversal logo"></center>
+  </div>
+  
+<!-- end of of front page content picture thing yea -->
+<h1><center>Welcome to UNIversal, the information hub for international students around the world. Select your city to begin:</center></h1>
+
+<!-- code for search bar -->
+<div class = "searchBoxClass">
+  <center>
+	<input class = "searchBar" id="searchbar" onkeyup="search_city()" type="text" name="search" placeholder="Search city..">
+        </center>
+        <ul id='list'>
+          <li class = "city"> <a href = "/Home/Home.html">Montréal</a> </li>
+          <li class="city">Hong Kong</li>
+          <li class="city">Zurich</li>
+          <li class="city">Sydney</li>
+        </ul>
+
+</div>
+<center>       
+<p class ="suggestT>Don't see your city?</p>
+</center>
+<!-- code for button -->
+<div class = "buttonCity">
+<button class="city-form"><a class = "suggestCity" href = "/CityForm/CityForm.html">Suggest A City</a></button>
+</div>
+
+<!-- about UNIversal -->
+<center><h1>About UNIversal</h1></center>
+<p class = "aboutText">A lot of students who immigrate to a different country/continent are not acclimated to the new culture around them and need help to navigate their new life. While much of the helpful information is located online, there are too many sites to research, making this important part of being an international student become messy and a chore. To counter this, we created UNIversal, a GIANT hub that helps immigrant and international students learn about their new country and school. It contains a plethora of information encompassing what these students need to survive and thrive. It is our mission to help international students find housing, understand the new country's language(s), and find job opportunities and extracurriculars.</p>
+<p align = "right" class = "aboutText"> With care,</p>
+<p align = "right" class = "aboutText">Mona Kalaoun, Riya Patel, Vicka Chernobay, and Tracy Huang, the creators of UNIversal</p>
+
+
+
+<!-- boxes -->
+<div class = "cityImageContainer">
+<div class="containerMontreal">
+<a href="/Home/Home.html">
+
+  <img src="images/hmontreal.jpg" alt="Avatar" class="imageMontreal">
+  <div class="overlayMontreal">
+    <div class="textMontreal">Montréal</div>
+  </div>
+  </a>
+</div>
+
+<div class="containerHongKong">
+  <img src="images/hongkong.jpg" alt="Avatar" class="imageHongKong">
+  <div class="overlayHongKong">
+    <div class="textHongKong">Hong Kong</div>
+  </div>
+</div>
+
+<div class="containerSwitzerland">
+  <img src="images/zurich.jpg" alt="Avatar" class="imageSwitzerland">
+  <div class="overlaySwitzerland">
+    <div class="textSwitzerland">Zurich</div>
+  </div>
+</div>
+
+<div class="containerSydney">
+  <img src="images/sydney.jpg" alt="Avatar" class="imageSydney">
+  <div class="overlaySydney">
+    <div class="textSydney">Sydney</div>
+  </div>
+</div>
+</div>
+<!-- boxes -->
+
+
+<p> <center>made by house d group 1 :)</center></p>
+ <p class = "bottomMargin"> .</p>
+
+    <!--Links script.js to HTML. Do not code below this line-->
+    <script src="/script.js"></script>
+  </body>
+</html>
